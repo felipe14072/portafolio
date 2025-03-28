@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Boton{
+    background-color: rgb(129, 4, 4);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Boton:hover{
+    background-color: rgb(182, 46, 46);
+}

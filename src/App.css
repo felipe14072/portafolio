@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+.container-fluid-sobreMi{
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.col-nyb{
+  border: 2px solid blue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+
+.nombre{
+  font-family: "Montserrat";
+  font-size: 90px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  background-size: cover;
+  background: linear-gradient(90deg, rgba(191,0,0,1) 16%, rgba(246,51,51,1) 38%, rgba(241,123,123,1) 62%, rgba(255,0,0,1) 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:767px) {
+  .col-foto{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-descripcion{
+  text-align: center;
+  padding: 10px;
+  }
+  
+}
+
+@media(min-width:991px){
+  .col-foto{
+    border: 2px solid red;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+  }  
+}

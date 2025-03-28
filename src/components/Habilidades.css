@@ -1,0 +1,30 @@
+.col-skills{
+    max-width: 600px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.titulo{
+    margin-bottom: 10px;
+}
+
+.habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.skill{
+    background-color: rgb(77, 77, 77);
+    padding: 3px 20px;
+    border-radius: 5px; 
+    white-space: nowrap;
+}
